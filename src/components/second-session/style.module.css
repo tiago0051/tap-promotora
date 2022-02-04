@@ -35,11 +35,12 @@
 }
 
 .session > div:first-child {
-    width: 80%;
+    width: 100%;
+    padding: 0 10rem;
 }
 
 .session > div > h3 {
-    color: #DC3D0E;
+    color: #4662B3;
     font-size: 3rem;
     margin: 2rem 0 1rem;
     font-family: 'Round Key Medium';
@@ -53,7 +54,7 @@
 }
 
 .session > div > p > b {
-    color: #2C4EA6;
+    color: #4662B3;
 }
 
 @media (max-width: 768px) {
@@ -74,5 +75,9 @@
 
     .session > div > p:last-child {
         margin-bottom: 3rem;
+    }
+
+    .session > div:first-child {
+        padding: 0;
     }
 }

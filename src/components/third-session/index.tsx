@@ -17,7 +17,7 @@ export default function ThirdSession (){
             </div>
 
             <div>
-                <Image src="/images/terceira-sessão/homem.webp" alt="Homem" width={724} height={767} layout="responsive"/>
+                <Image src="/images/terceira-sessão/telefone.webp" alt="Telefone" width={488} height={705} layout="responsive"/>
             </div>
         </section>
     )

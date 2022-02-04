@@ -11,7 +11,7 @@ export default function Footer() {
     return (
         <footer className={style.footer}>
             <div>
-                <Image src="/images/logo-branca.webp" alt="logo" width={785} height={263} />
+                <Image src="/images/logo-branca.webp" alt="Logo Cred Lemes" width={2110} height={274} />
             </div>
 
             <div>

@@ -7,8 +7,8 @@ export default function Navbar(){
     const router = useRouter();
     return(
         <nav className={styles.nav}>
-            <div><Image src="/images/logo-colorida.webp" alt="Logo Cred Lemes" width={500} height={168} layout="responsive"/></div>
-            <button onClick={() => router.push("https://api.whatsapp.com/send/?phone=5521990045906&text&app_absent=0")}><FaWhatsapp/>Entre em contato</button>
+            <div><Image src="/images/logo-azul.webp" alt="Tap Promotora" width={2110} height={274} layout="responsive"/></div>
+            <button onClick={() => router.push("https://api.whatsapp.com/send/?phone=5521990045906&text&app_absent=0")}><FaWhatsapp/>FALE COM A GENTE</button>
         </nav>
     )
 }

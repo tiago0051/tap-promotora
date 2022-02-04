@@ -17,16 +17,16 @@
 }
 
 .section > div:last-child{
-    padding: 5rem 3rem 5rem 5rem;
+    padding: 0 10rem;
 }
 
 .section > div > h3 {
-    color: #DC3D0E;
+    color: #4662B3;
     font-size: 2rem;
 }
 
 .section > div b {
-    color: #2C4EA6;
+    color: #2A5298;
 }
 
 .section > div p {

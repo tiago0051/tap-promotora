@@ -5,7 +5,7 @@ export default function SecondSession(){
     return (
         <section className={style.session}>
             <div>
-                <Image src="/images/segunda-sessão/foto-casal.webp" alt="Casal" width={773} height={739} layout='responsive'/>
+                <Image src="/images/segunda-sessão/foto-homem.webp" alt="Homem" width={593} height={758} layout='responsive'/>
             </div>
 
             <div>

@@ -15,7 +15,8 @@
 }
 
 .section h3 {
-    color: #DC3D0E;
+    color: #4662B3;
+    text-align: center;
 }
 
 .section > div {
@@ -36,7 +37,7 @@
 }
 
 .section h4 {
-    color: #295197;
+    color: #4662B3;
 }
 
 .section > div > div > span {
