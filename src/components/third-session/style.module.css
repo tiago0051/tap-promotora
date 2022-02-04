@@ -1,0 +1,59 @@
+.section {
+    background: transparent linear-gradient(0deg, #BEBEBE 0%, #EEEEEE 50%, #D2D2D2 100%) 0% 0% no-repeat padding-box;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+
+}
+
+.section > div {
+    width: 50%;
+}
+
+.section > div:last-child{
+    padding: 5rem 3rem 5rem 5rem;
+}
+
+.section > div > h3 {
+    color: #DC3D0E;
+    font-size: 2rem;
+}
+
+.section > div b {
+    color: #2C4EA6;
+}
+
+.section > div p {
+    font-size: 1.5rem;
+    color: #848484;
+    margin-top: 1rem;
+}
+
+.section > div > p > b {
+    text-transform: uppercase-;
+}
+
+.section > div > ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .section > div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .section > div:last-child{
+        padding: 2rem;
+    }
+}

@@ -1,0 +1,80 @@
+.sessão1{
+  background-image: url("/images/primeira-sessão/fundo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 768px) {
+    background-position: left;
+  }
+
+  > div:first-child{
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px){
+      width: 100%;
+      margin: 150px 0 50px;
+    }
+
+    > form {
+      background-color: white;
+      width: 400px;
+      height: 440px;
+      border-radius: 10px;
+      margin-top: 130px;
+      margin-bottom: 2rem;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      > div {
+        width: 300px;
+        margin-top: -100px;
+      }
+
+      > label {
+        font-size: 1.3rem;
+        position: relative;
+        margin: 0.5rem 0;
+      }
+
+      > label > p {
+        position: absolute;
+        top: -10px;
+        left: 10px;
+        background-color: white;
+        font-family: 'Round Key ExtraLight';
+        padding: 0 10px;
+      }
+
+      > label > input {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        border-radius: 7px;
+        border: 1px solid #959595;
+      }
+
+      > button {
+        width: 200px;
+        font-size: 2.3rem;
+        border: 0;
+        color: white;
+        background: transparent linear-gradient(0deg, #DC3E0F 0%, #EC5E34 100%) 0% 0% no-repeat padding-box;
+        box-shadow: -3.94px 5px 29px #02011538;
+        border-radius: 12px;
+        text-shadow: -2.62px 3px 0px #02011563;
+        font-family: 'Round Key BoldOblique';
+        padding: 5px 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
